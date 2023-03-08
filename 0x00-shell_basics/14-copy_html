@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -not -newer ../ -exec cp -p '{}' '../{}'
+cp -rua *.html ../
