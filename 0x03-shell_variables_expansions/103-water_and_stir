@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "obase=bestchol; $(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc)" | bc
-
