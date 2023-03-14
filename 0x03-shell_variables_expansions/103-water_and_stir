@@ -1,2 +1,2 @@
 #!bin/bash
-bestchol=$(echo "obase=bestchol; $(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc)" | bc)
+bestchol=$(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc)
